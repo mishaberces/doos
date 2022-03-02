@@ -12,5 +12,5 @@ if [ ! -z "$pids" ]
 
 then
   printf "\nPids to kill:\n$pids\n\n"
-          	echo $pids | xargs kill -9
-  	fi
+            	echo $pids | xargs kill -9
+ 	fi
