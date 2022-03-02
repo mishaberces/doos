@@ -13,4 +13,4 @@ sleep 2m 30s
 nohup ./loop.sh ./lilh_linux_amd64 "https://cyber-war-bombardier.herokuapp.com/json?activeOnly" instance.id=$instance_id >> doss2.log1 2>&1 & echo ok
 printf "\n"
 ps -v | grep $filter
-printf "\n"
+printf "\n"  
