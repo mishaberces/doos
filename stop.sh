@@ -4,7 +4,7 @@ instance_id=dos_bombardier
 
 filter="instance.id=$instance_id"
 
-pids=$(ps aux | grep php | grep $filter | awk '{print $2}')
+pids=$(ps aux | grep sh | grep $filter | awk '{print $2}')
 
 echo =====STOP====== $pids
 
