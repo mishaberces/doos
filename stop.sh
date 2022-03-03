@@ -6,7 +6,7 @@ filter="instance.id=$instance_id"
 
 pids=$(ps aux | grep sh | grep $filter | awk '{print $2}')
 
-echo =====STOP====== $pids
+echo =====STOP1====== $pids
 
 if [ ! -z "$pids" ]
 
