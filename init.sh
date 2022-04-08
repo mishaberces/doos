@@ -12,4 +12,3 @@ git reset --hard
 git checkout $REF
 git pull
 
-./start.sh
